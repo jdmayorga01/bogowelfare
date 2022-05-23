@@ -9,4 +9,10 @@ Este repositorio se divide en los siguinetes grupos:
 1. **Código:** En esta carpeta el usuario podrá encontrar los códigos de descarga, limpieza y análisis de los datos de OSM. Adicionalmente, se agrega un código en donde se deja el algoritmo  final para la descarga de datos en OSM. 
 2. **Mapas:** Se cargan los datos del shp file de Bogotá que se utilizaron para modelar los outputs
 3. **Bases de datos:** En esta carpeta se subirán las bases de datos finales. Adicionalmente, se presenta la información para otros amenities diferentes a *comidas* para presentar pruebas de la capacidad del programa. 
-4. **Outputs**: En esta carpeta el usuario podrá encontrar los gráficos y tablas que se derivaron del análisis.
+
+Las bases de datos se dividen en tres: 
+* **Datos Bogota:** Infromación que se recoelctó directamente de datos abiertos o datos abiertos Bogotá. Estan las fuentes originales y las bases de datos limpias. 
+* **OSM mapas:** Información a nivel individual por establecimiento (contiene latitud y longitud)
+* **OSM totales:** Totales de los establecimientos por localidad
+
+5. **Outputs**: En esta carpeta el usuario podrá encontrar los gráficos y tablas que se derivaron del análisis.
