@@ -15,4 +15,4 @@ Las bases de datos se dividen en tres:
 * **OSM mapas:** Información a nivel individual por establecimiento (contiene latitud y longitud). Estas bases fueron las que se utilizaron para el análisis. 
 * **OSM totales:** Totales de los establecimientos por localidad
 
-5. **Outputs**: En esta carpeta el usuario podrá encontrar los gráficos y tablas que se derivaron del análisis.
+4. **Outputs**: En esta carpeta el usuario podrá encontrar los gráficos y tablas que se derivaron del análisis.
