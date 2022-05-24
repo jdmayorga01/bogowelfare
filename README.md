@@ -44,15 +44,19 @@ Para analizar la población se construyó un indice para medir el número de est
 
 $$Food Index_{loc} = \frac{T. comida_{loc}}{Pob_{loc}}*1.000.$$
 
+Los datos poblacionales corresponden a información de 2022.
+
 ![Población leyenda](https://user-images.githubusercontent.com/68482485/170115703-ede2d179-f055-4ea1-8d4c-8b3375fddcd9.png)
 
 Los resultados muestran que La Candelaria tiene alrededor de 31 establecimientos por cada 1.000 personas mientras que Usme solo 0.07, lo que revela la disparidad en el acceso a estos espacios a lo largo de Bogotá. 
 
 #### Pobreza 
+Los datos de pobreza corresponden a información de 2017 de la encuesta multipropositos.
 ![Pobreza leyenda](https://user-images.githubusercontent.com/68482485/170115609-03f7a477-6a6a-4ba4-a922-f109ab687707.png)
 La correlación entre pobreza y el total de lugares de comida es de -0.62, se puede apreciar que los lugares de comida estan mucho mas al norte.
 
 #### Ingresos
+Los datos de ingresos corresponden a información de 2017 de la encuesta multipropositos. Son los ingresos promedio de las personas ocupadas.
 ![Ingresos leyenda](https://user-images.githubusercontent.com/68482485/170115847-d4a65dca-8eb5-4f5a-88cd-6981eb1a774b.png)
 La correlación entre ingresos y establecimiento de comida es de 0.83, lo que puede dar indicios de que los establecimientos se ubican en estas localidades por ser zonas con mayor prosperidad económica.
 
