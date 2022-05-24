@@ -24,28 +24,48 @@ Adicionalmente, en este punto también se hizo un análisis de correlación simp
 ### Totales
 - 11.784 observaciones de establecimientos de comida en Bogotá.
 - Chapinero es la localidad con mas espacios (alrededor del 20% de los establecimientos).
-- Localidades como Usme y Ciudad Bolívar no llegan ni al 2% de las localidades; Esto se puede deber a problemas en la información de OSM porque es muy extraño que una localidad tenga tan pocos establecimientos
+- Localidades como Usme y Ciudad Bolívar no llegan ni al 2% de las localidades; Esto se puede deber a problemas en la información de OSM porque es muy extraño que una localidad tenga tan pocos establecimientos.
+
 ![Totales por localidad](https://user-images.githubusercontent.com/68482485/170110110-0afc9d85-ac5c-430e-ba73-1181b5b1b51c.png)
 
 - En términos del mapa de calor, se puede apreciar que hay una concentración en las zonas de la Candelaria, Chapinero y Teusaquillo.
+- 
 ![Mapa calor individual](https://user-images.githubusercontent.com/68482485/170111285-a7f4bbed-19a5-4a95-a030-12dfc72d4f8f.png)
 
 ### Indicadores económicos
 Ahora bien, para poder encontrar factores que puedan llegar a explicar esta concentración en ciertas localidades del país se realizó un análisis cruzado con información de Datos Abiertos Bogotá para encontrar correlaciones con el total de establecimientos. Las dimensiones que se evaluaron fueron **población, desigualdades e ingresos** 
 
-![corr matrix](https://user-images.githubusercontent.com/68482485/170113258-822680e7-0e32-4a97-bad1-80596f9f3aca.png)
+![corr matrix](https://user-images.githubusercontent.com/68482485/170113711-ea806430-04c4-4036-bf8f-4fedf5d08c4f.png)
+
 Esta matriz de correlación muestra que hay una fuerte correlación entre pobreza, ingresos. En el caso de la pobreza esta relación es negativa, indicando que los establecimientos se ubican en zonas con menos pobreza. Caso contrario sucede con los ingresos, que tienen una correlación del 0.83, mostrando que los lugares de comida estan mas presentes en localidades con mayor prosperidad económica. 
+
+#### Población 
+Para analizar la población se construyó un indice para medir el número de establecimientos por cada 1.000 personas, como se presenta en la siguiente ecuación:
+
+$$Food Index_{loc} = \frac{T. comida_{loc}}{Pob_{loc}}*1.000.$$
+
+![Población leyenda](https://user-images.githubusercontent.com/68482485/170115703-ede2d179-f055-4ea1-8d4c-8b3375fddcd9.png)
+
+Los resultados muestran que La Candelaria tiene alrededor de 31 establecimientos por cada 1.000 personas mientras que Usme solo 0.07, lo que revela la disparidad en el acceso a estos espacios a lo largo de Bogotá. 
+
+#### Pobreza 
+![Pobreza leyenda](https://user-images.githubusercontent.com/68482485/170115609-03f7a477-6a6a-4ba4-a922-f109ab687707.png)
+La correlación entre pobreza y el total de lugares de comida es de -0.62, se puede apreciar que los lugares de comida estan mucho mas al norte.
+
+#### Ingresos
+![Ingresos leyenda](https://user-images.githubusercontent.com/68482485/170115847-d4a65dca-8eb5-4f5a-88cd-6981eb1a774b.png)
+La correlación entre ingresos y establecimiento de comida es de 0.83, lo que puede dar indicios de que los establecimientos se ubican en estas localidades por ser zonas con mayor prosperidad económica.
 
 ## Estructura del repositorio
 
 Este repositorio se divide en los siguinetes grupos: 
-1. **Código:** En esta carpeta el usuario podrá encontrar los códigos de descarga, limpieza y análisis de los datos de OSM [(link)](https://github.com/jdmayorga01/bogowelfare/blob/main/Code/Bienestar%20bog.ipynb). Adicionalmente, se agrega un código en donde se deja el algoritmo  final para la descarga de datos en OSM [(link)](https://github.com/jdmayorga01/bogowelfare/blob/main/Algoritmo%20final.ipynb). 
+1. **Código:** En esta carpeta el usuario podrá encontrar los códigos de descarga, limpieza y análisis de los datos de OSM [(link)](https://github.com/jdmayorga01/bogowelfare/blob/main/Code/Bienestar%20bog.ipynb). Por otro lado, también se añade un código con las diferentes alternativas que se consideraron para descargar los datos [(link)](https://github.com/jdmayorga01/bogowelfare/blob/main/Code/C%C3%B3digos%20Alternativos.ipynb). Adicionalmente, se agrega un código en donde se deja el algoritmo  final para la descarga de datos en OSM [(link)](https://github.com/jdmayorga01/bogowelfare/blob/main/Algoritmo%20final.ipynb). 
 2. **Mapas:** Se cargan los datos del shp file de Bogotá que se utilizaron para modelar los outputs
 3. **Bases de datos:** En esta carpeta se subirán las bases de datos finales. Adicionalmente, se presenta la información para otros amenities diferentes a *comidas* para presentar pruebas de la capacidad del programa. 
 
 Las bases de datos se dividen en tres: 
 * **Datos Bogotá:** Información que se recolectó directamente de datos abiertos o datos abiertos Bogotá. Estan las fuentes originales y las bases de datos limpias. 
 * **OSM mapas:** Información a nivel individual por establecimiento (contiene latitud y longitud). Estas bases fueron las que se utilizaron para el análisis. 
-* **OSM totales:** Totales de los establecimientos por localidad
+* **OSM totales:** Totales de los establecimientos por localidad. Podrá encontrár el código alternativo que genera estas bases de datos en el siguiente [link](https://github.com/jdmayorga01/bogowelfare/blob/main/Code/C%C3%B3digos%20Alternativos.ipynb).
 
 4. **Outputs**: En esta carpeta el usuario podrá encontrar los gráficos y tablas que se derivaron del análisis.
