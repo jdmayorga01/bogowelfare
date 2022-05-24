@@ -73,3 +73,4 @@ Las bases de datos se dividen en tres:
 * **OSM totales:** Totales de los establecimientos por localidad. Podrá encontrár el código alternativo que genera estas bases de datos en el siguiente [link](https://github.com/jdmayorga01/bogowelfare/blob/main/Code/C%C3%B3digos%20Alternativos.ipynb).
 
 4. **Outputs**: En esta carpeta el usuario podrá encontrar los gráficos y tablas que se derivaron del análisis.
+5. **Presentación:** La presentación final del proyecto la puede encontrar en el siguiente [link](https://github.com/jdmayorga01/bogowelfare/blob/main/Concentraci%C3%B3n%20Espacial%20en%20Bogot%C3%A1.pdf).
