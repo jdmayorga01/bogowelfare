@@ -11,7 +11,7 @@ Este proyecto nace por dos razones:
 ## Estructura del repositorio
 
 Este repositorio se divide en los siguinetes grupos: 
-1. **Código:** En esta carpeta el usuario podrá encontrar los códigos de descarga, limpieza y análisis de los datos de OSM. Adicionalmente, se agrega un código en donde se deja el algoritmo  final para la descarga de datos en OSM. 
+1. **Código:** En esta carpeta el usuario podrá encontrar los códigos de descarga, limpieza y análisis de los datos de OSM [(link)](https://github.com/jdmayorga01/bogowelfare/blob/main/Code/Bienestar%20bog.ipynb). Adicionalmente, se agrega un código en donde se deja el algoritmo  final para la descarga de datos en OSM [(link)](https://github.com/jdmayorga01/bogowelfare/blob/main/Algoritmo%20final.ipynb). 
 2. **Mapas:** Se cargan los datos del shp file de Bogotá que se utilizaron para modelar los outputs
 3. **Bases de datos:** En esta carpeta se subirán las bases de datos finales. Adicionalmente, se presenta la información para otros amenities diferentes a *comidas* para presentar pruebas de la capacidad del programa. 
 
