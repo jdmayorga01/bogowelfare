@@ -19,6 +19,23 @@ Adicionalmente, en este punto también se hizo un análisis de correlación simp
 
 5. **Análisis gráfico:** Para este punto se utilizó Tableur para analizar las relaciones entre indicadores económicos y ubicación de los locales relacionados a comida. Se utilizó un shape map de las localidades de Bogotá, puede encontrar estas baseses de datos en el siguiente [link](https://github.com/jdmayorga01/bogowelfare/tree/main/Mapas.) Los mapas finales los puede encontrar en el siguiente [link](https://github.com/jdmayorga01/bogowelfare/tree/main/Outputs).
 
+## Resultados
+
+### Totales
+- 11.784 observaciones de establecimientos de comida en Bogotá.
+- Chapinero es la localidad con mas espacios (alrededor del 20% de los establecimientos).
+- Localidades como Usme y Ciudad Bolívar no llegan ni al 2% de las localidades; Esto se puede deber a problemas en la información de OSM porque es muy extraño que una localidad tenga tan pocos establecimientos
+![Totales por localidad](https://user-images.githubusercontent.com/68482485/170110110-0afc9d85-ac5c-430e-ba73-1181b5b1b51c.png)
+
+- En términos del mapa de calor, se puede apreciar que hay una concentración en las zonas de la Candelaria, Chapinero y Teusaquillo.
+![Mapa calor individual](https://user-images.githubusercontent.com/68482485/170111285-a7f4bbed-19a5-4a95-a030-12dfc72d4f8f.png)
+
+### Indicadores económicos
+Ahora bien, para poder encontrar factores que puedan llegar a explicar esta concentración en ciertas localidades del país se realizó un análisis cruzado con información de Datos Abiertos Bogotá para encontrar correlaciones con el total de establecimientos. Las dimensiones que se evaluaron fueron **población, desigualdades e ingresos** 
+
+![corr matrix](https://user-images.githubusercontent.com/68482485/170113258-822680e7-0e32-4a97-bad1-80596f9f3aca.png)
+Esta matriz de correlación muestra que hay una fuerte correlación entre pobreza, ingresos. En el caso de la pobreza esta relación es negativa, indicando que los establecimientos se ubican en zonas con menos pobreza. Caso contrario sucede con los ingresos, que tienen una correlación del 0.83, mostrando que los lugares de comida estan mas presentes en localidades con mayor prosperidad económica. 
+
 ## Estructura del repositorio
 
 Este repositorio se divide en los siguinetes grupos: 
