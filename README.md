@@ -2,7 +2,7 @@
 
 ## Descripción y motivación
 
-¿Se puede utilizar datos de Open Street Maps para medir el bienestar de una ciudad? Este proyecto buscará presentar un análisis del bienestar al que tienen acceso los ciudadanos de Bogotá, Colombia utilizado información de OSM. Este análisis preliminar utilizará la dimensión de *Comidas* (restaurantes, bares, pubs y entre otros) para cuantificar el acceso a bienes públicos por parte de los bogotanos, sin embargo, como se demuestra con los códigos, el algoritmo construido tiene aplicaciones en políticas públicas mucho más profundas que pueden ayudar a los hacedores de política a tomar decisiones, por ejemplo, para evaluar la concentración espacial de servicios institucionales de salud o económicos.
+¿Se puede utilizar datos de Open Street Maps para medir el bienestar de una ciudad? Este proyecto buscará presentar un análisis del bienestar al que tienen acceso los ciudadanos de Bogotá, Colombia a partir de un análisis de la concentración espacial utilizado información de OSM. Este análisis preliminar utilizará la dimensión de *Comidas* (restaurantes, bares, pubs y entre otros) para cuantificar el acceso a bienes públicos por parte de los bogotanos, sin embargo, como se demuestra con los códigos, el algoritmo construido tiene aplicaciones en políticas públicas mucho más profundas que pueden ayudar a los hacedores de política a tomar decisiones, por ejemplo, para evaluar la concentración espacial de servicios institucionales de salud o económicos.
 
 Este proyecto nace por dos razones:
 1. **Experiencia personal:** Salgo a recorrer mi zona y no encuentro variedad de establecimientos (cafés, restaurantes o pubs). Siempre debo ir a las mismas zonas (Chapinero, Usaquén) para encontrar "variedad".  
@@ -16,7 +16,7 @@ Este repositorio se divide en los siguinetes grupos:
 3. **Bases de datos:** En esta carpeta se subirán las bases de datos finales. Adicionalmente, se presenta la información para otros amenities diferentes a *comidas* para presentar pruebas de la capacidad del programa. 
 
 Las bases de datos se dividen en tres: 
-* **Datos Bogota:** Infromación que se recoelctó directamente de datos abiertos o datos abiertos Bogotá. Estan las fuentes originales y las bases de datos limpias. 
+* **Datos Bogotá:** Información que se recolectó directamente de datos abiertos o datos abiertos Bogotá. Estan las fuentes originales y las bases de datos limpias. 
 * **OSM mapas:** Información a nivel individual por establecimiento (contiene latitud y longitud). Estas bases fueron las que se utilizaron para el análisis. 
 * **OSM totales:** Totales de los establecimientos por localidad
 
