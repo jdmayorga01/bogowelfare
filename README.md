@@ -33,7 +33,7 @@ Adicionalmente, en este punto también se hizo un análisis de correlación simp
 ![Mapa calor individual](https://user-images.githubusercontent.com/68482485/170111285-a7f4bbed-19a5-4a95-a030-12dfc72d4f8f.png)
 
 ### Indicadores económicos
-Ahora bien, para poder encontrar factores que puedan llegar a explicar esta concentración en ciertas localidades del país se realizó un análisis cruzado con información de Datos Abiertos Bogotá para encontrar correlaciones con el total de establecimientos. Las dimensiones que se evaluaron fueron **población, desigualdades e ingresos** 
+Ahora bien, para poder encontrar factores que puedan llegar a explicar esta concentración en ciertas localidades del país se realizó un análisis cruzado con información de Datos Abiertos Bogotá para encontrar correlaciones con el total de establecimientos. Las dimensiones que se evaluaron fueron **población, desigualdades e ingresos.**
 
 ![corr matrix](https://user-images.githubusercontent.com/68482485/170113711-ea806430-04c4-4036-bf8f-4fedf5d08c4f.png)
 
