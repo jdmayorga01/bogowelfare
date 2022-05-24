@@ -29,7 +29,7 @@ Adicionalmente, en este punto también se hizo un análisis de correlación simp
 ![Totales por localidad](https://user-images.githubusercontent.com/68482485/170110110-0afc9d85-ac5c-430e-ba73-1181b5b1b51c.png)
 
 - En términos del mapa de calor, se puede apreciar que hay una concentración en las zonas de la Candelaria, Chapinero y Teusaquillo.
-- 
+
 ![Mapa calor individual](https://user-images.githubusercontent.com/68482485/170111285-a7f4bbed-19a5-4a95-a030-12dfc72d4f8f.png)
 
 ### Indicadores económicos
