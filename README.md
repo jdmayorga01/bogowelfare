@@ -53,7 +53,7 @@ Los resultados muestran que La Candelaria tiene alrededor de 31 establecimientos
 #### Pobreza 
 Los datos de pobreza corresponden a información de 2017 de la encuesta multipropositos.
 ![Pobreza leyenda](https://user-images.githubusercontent.com/68482485/170115609-03f7a477-6a6a-4ba4-a922-f109ab687707.png)
-La correlación entre pobreza y el total de lugares de comida es de -0.62, se puede apreciar que los lugares de comida estan mucho mas al norte.
+La correlación entre pobreza y el total de lugares de comida es de -0.62, se puede apreciar que los lugares de comida estan mucho mas al norte en localidades con menor incidencia de pobreza monetaria.
 
 #### Ingresos
 Los datos de ingresos corresponden a información de 2017 de la encuesta multipropositos. Son los ingresos promedio de las personas ocupadas.
