@@ -6,6 +6,7 @@
 
 Este proyecto nace por dos razones:
 **1. Experiencia personal:** Salgo a recorrer mi zona y no encuentro variedad de establecimientos (cafés, restaurantes o pubs). Siempre debo ir a las mismas zonas (Chapinero, Usaquén) para encontrar "variedad".  
+
 **2.** Hoy en día hay una **brecha entre la demanda y oferta de servicios institucionales (establecimientos económicos, salud, educativos y entre otros).** La demanda de diversas instalaciones aumenta con el crecimiento de la población y las antiguas instalaciones deben actualizarse con el aumento del nivel de vida y las expectativas del público (Rahaman & Siddique, 2020).
 
 ## Métodos utilizados 
